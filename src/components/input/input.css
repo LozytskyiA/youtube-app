@@ -1,0 +1,41 @@
+.youtube-search {
+    background: #2C2C2C;
+    min-height: 56px;
+    text-align: center;
+    line-height: 52px;
+    width: 100%;
+}
+
+.youtube-search__btn {
+    background: #3D3D3D;
+    color: #777777;
+    border: 1px solid #3D3D3D;
+    line-height: normal;
+    padding: 6px;
+    font-size: 16px;
+    width: 60px;
+    outline: none;
+    cursor: pointer;
+}
+
+.youtube-search__input {
+    background: #000000;
+    padding: 6px;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid #000000;
+    outline: none;
+}
+
+.youtube-search__input[type="text"]:focus {
+    border: 1px solid #707070
+}
+
+.youtube-search__btn[type="button"]:focus {
+    border: 1px solid #707070
+}
+
+input[type="submit"], input[type="text"] {
+    line-height: normal !important;
+}

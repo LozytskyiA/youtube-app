@@ -1,0 +1,13 @@
+.youtube-moreVideos {
+    display: block;
+    background: #3D3D3D;
+    color: #777777;
+    border: 1px solid #3D3D3D;
+    line-height: normal;
+    padding: 6px;
+    font-size: 16px;
+    width: 160px;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}

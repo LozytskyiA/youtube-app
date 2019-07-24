@@ -1,0 +1,36 @@
+.youtube-videos{
+    padding-top: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.youtube-videos-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+
+}
+
+.youtube-videos-list__item {
+    flex: 0 0 210px;
+    margin: 8px 3px;
+
+}
+
+.youtube-videos-list__img{
+    max-width: 210px;
+    height: 118px;
+}
+
+.youtube-videos-list__text{
+    font-size: 14px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 210px;
+    font-weight: 500;
+    height: 3.2rem;
+    line-height: 1.6rem;
+    cursor: pointer;
+    margin-top: 2px;
+}
